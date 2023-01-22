@@ -5,7 +5,7 @@ from GSMarenaFunctions import featureimg, paragraph, heading2, urlify, wptable
 import json
 
 
-api_url = 'https://mobile-phone-server.vercel.app/phones'
+api_url = 'https://trybesttech.com/wp-json/wp/v2/posts'
 response = get(api_url)
 if response.status_code == 200:
     data = response.json()
